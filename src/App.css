@@ -5,6 +5,14 @@
   text-align: center;
 }
 
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: teal;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
 .padding-0 {
   padding: 0;
 }
@@ -14,15 +22,10 @@
 }
 
 
-
-
-
-
-
  .SkillList {
   display: grid;
   gap: 1rem;
-  width: 60%;
+
   margin: 0 auto;
   font-size: 1rem;
   font-weight: bold;
@@ -40,7 +43,7 @@
   border-radius: 0.3rem;
   list-style: none;
   color: teal;
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: bold;
   width: 50%;
   margin: 0 auto;
@@ -68,28 +71,52 @@
   grid-template-columns: auto auto;
   gap: 1rem;
   border: 0.2rem solid coral;
-  width: 35%;
   margin: 0 auto;
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: bold;
   color: teal;
   border: 0.2rem solid coral;
   border-radius: 0.3rem;
   padding: 1rem;
+  width: 50%;
 }
+
+
+.SkillList {
+  width: 600px; 
+}
+
+.NewSkillForm {
+  width: 400px; 
+}
+
+
+@media screen and (max-width: 768px) {
+  .SkillList, .NewSkillForm {
+    width: 100%;
+  }
+}
+
+
 
 
 .NewSkillForm label {
   display: flex;
   align-items: center;
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: bold;
   color: teal;
-  border-radius: 0.3rem;
+  border-radius: 0.3rem; 
+  width: 100%;
 }
 
 .NewSkillForm label select {
-  width: 250px;
+  width: 100%;
+ 
+}
+
+.NewSkillForm label input {
+  width: 100%;
  
 }
 
